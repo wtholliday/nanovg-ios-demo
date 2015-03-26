@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29999E021AC472890059006E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29999E011AC472890059006E /* main.m */; };
+		29999E051AC472890059006E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29999E041AC472890059006E /* AppDelegate.m */; };
+		29999E0C1AC472890059006E /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29999E0B1AC472890059006E /* GameViewController.m */; };
+		29999E0F1AC472890059006E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29999E0D1AC472890059006E /* Main.storyboard */; };
+		29999E111AC472890059006E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29999E101AC472890059006E /* Images.xcassets */; };
+		29999E141AC472890059006E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29999E121AC472890059006E /* LaunchScreen.xib */; };
+		29999E201AC472890059006E /* nanovg_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29999E1F1AC472890059006E /* nanovg_DemoTests.m */; };
+		29999E311AC476BE0059006E /* nanovg.c in Sources */ = {isa = PBXBuildFile; fileRef = 29999E2D1AC476BE0059006E /* nanovg.c */; };
+		29999E341AC47A040059006E /* demo.c in Sources */ = {isa = PBXBuildFile; fileRef = 29999E321AC47A040059006E /* demo.c */; };
+		29999E391AC482650059006E /* entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 29999E351AC482650059006E /* entypo.ttf */; };
+		29999E3A1AC482650059006E /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 29999E361AC482650059006E /* Roboto-Bold.ttf */; };
+		29999E3B1AC482650059006E /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 29999E371AC482650059006E /* Roboto-Light.ttf */; };
+		29999E3C1AC482650059006E /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 29999E381AC482650059006E /* Roboto-Regular.ttf */; };
+		29999E3E1AC482810059006E /* images in Resources */ = {isa = PBXBuildFile; fileRef = 29999E3D1AC482810059006E /* images */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29999E1A1AC472890059006E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29999DF41AC472890059006E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29999DFB1AC472890059006E;
+			remoteInfo = "nanovg Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29999DFC1AC472890059006E /* nanovg Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nanovg Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29999E001AC472890059006E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29999E011AC472890059006E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29999E031AC472890059006E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		29999E041AC472890059006E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		29999E0A1AC472890059006E /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		29999E0B1AC472890059006E /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		29999E0E1AC472890059006E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29999E101AC472890059006E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		29999E131AC472890059006E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		29999E191AC472890059006E /* nanovg DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "nanovg DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29999E1E1AC472890059006E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29999E1F1AC472890059006E /* nanovg_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nanovg_DemoTests.m; sourceTree = "<group>"; };
+		29999E2A1AC476BE0059006E /* nanovg_gl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nanovg_gl.h; path = nanovg/src/nanovg_gl.h; sourceTree = "<group>"; };
+		29999E2B1AC476BE0059006E /* fontstash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fontstash.h; path = nanovg/src/fontstash.h; sourceTree = "<group>"; };
+		29999E2C1AC476BE0059006E /* nanovg_gl_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nanovg_gl_utils.h; path = nanovg/src/nanovg_gl_utils.h; sourceTree = "<group>"; };
+		29999E2D1AC476BE0059006E /* nanovg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = nanovg.c; path = nanovg/src/nanovg.c; sourceTree = "<group>"; };
+		29999E2E1AC476BE0059006E /* nanovg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nanovg.h; path = nanovg/src/nanovg.h; sourceTree = "<group>"; };
+		29999E2F1AC476BE0059006E /* stb_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stb_image.h; path = nanovg/src/stb_image.h; sourceTree = "<group>"; };
+		29999E301AC476BE0059006E /* stb_truetype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stb_truetype.h; path = nanovg/src/stb_truetype.h; sourceTree = "<group>"; };
+		29999E321AC47A040059006E /* demo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = demo.c; path = nanovg/example/demo.c; sourceTree = SOURCE_ROOT; };
+		29999E331AC47A040059006E /* demo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = demo.h; path = nanovg/example/demo.h; sourceTree = SOURCE_ROOT; };
+		29999E351AC482650059006E /* entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = entypo.ttf; path = nanovg/example/entypo.ttf; sourceTree = SOURCE_ROOT; };
+		29999E361AC482650059006E /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Bold.ttf"; path = "nanovg/example/Roboto-Bold.ttf"; sourceTree = SOURCE_ROOT; };
+		29999E371AC482650059006E /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Light.ttf"; path = "nanovg/example/Roboto-Light.ttf"; sourceTree = SOURCE_ROOT; };
+		29999E381AC482650059006E /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Regular.ttf"; path = "nanovg/example/Roboto-Regular.ttf"; sourceTree = SOURCE_ROOT; };
+		29999E3D1AC482810059006E /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = nanovg/example/images; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29999DF91AC472890059006E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29999E161AC472890059006E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29999DF31AC472890059006E = {
+			isa = PBXGroup;
+			children = (
+				29999E291AC476AF0059006E /* nanovg */,
+				29999DFE1AC472890059006E /* nanovg Demo */,
+				29999E1C1AC472890059006E /* nanovg DemoTests */,
+				29999DFD1AC472890059006E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29999DFD1AC472890059006E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29999DFC1AC472890059006E /* nanovg Demo.app */,
+				29999E191AC472890059006E /* nanovg DemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29999DFE1AC472890059006E /* nanovg Demo */ = {
+			isa = PBXGroup;
+			children = (
+				29999E3D1AC482810059006E /* images */,
+				29999E351AC482650059006E /* entypo.ttf */,
+				29999E361AC482650059006E /* Roboto-Bold.ttf */,
+				29999E371AC482650059006E /* Roboto-Light.ttf */,
+				29999E381AC482650059006E /* Roboto-Regular.ttf */,
+				29999E321AC47A040059006E /* demo.c */,
+				29999E331AC47A040059006E /* demo.h */,
+				29999E031AC472890059006E /* AppDelegate.h */,
+				29999E041AC472890059006E /* AppDelegate.m */,
+				29999E0A1AC472890059006E /* GameViewController.h */,
+				29999E0B1AC472890059006E /* GameViewController.m */,
+				29999E0D1AC472890059006E /* Main.storyboard */,
+				29999E101AC472890059006E /* Images.xcassets */,
+				29999E121AC472890059006E /* LaunchScreen.xib */,
+				29999DFF1AC472890059006E /* Supporting Files */,
+			);
+			path = "nanovg Demo";
+			sourceTree = "<group>";
+		};
+		29999DFF1AC472890059006E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29999E001AC472890059006E /* Info.plist */,
+				29999E011AC472890059006E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29999E1C1AC472890059006E /* nanovg DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				29999E1F1AC472890059006E /* nanovg_DemoTests.m */,
+				29999E1D1AC472890059006E /* Supporting Files */,
+			);
+			path = "nanovg DemoTests";
+			sourceTree = "<group>";
+		};
+		29999E1D1AC472890059006E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29999E1E1AC472890059006E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29999E291AC476AF0059006E /* nanovg */ = {
+			isa = PBXGroup;
+			children = (
+				29999E2A1AC476BE0059006E /* nanovg_gl.h */,
+				29999E2B1AC476BE0059006E /* fontstash.h */,
+				29999E2C1AC476BE0059006E /* nanovg_gl_utils.h */,
+				29999E2D1AC476BE0059006E /* nanovg.c */,
+				29999E2E1AC476BE0059006E /* nanovg.h */,
+				29999E2F1AC476BE0059006E /* stb_image.h */,
+				29999E301AC476BE0059006E /* stb_truetype.h */,
+			);
+			name = nanovg;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29999DFB1AC472890059006E /* nanovg Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29999E231AC472890059006E /* Build configuration list for PBXNativeTarget "nanovg Demo" */;
+			buildPhases = (
+				29999DF81AC472890059006E /* Sources */,
+				29999DF91AC472890059006E /* Frameworks */,
+				29999DFA1AC472890059006E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "nanovg Demo";
+			productName = "nanovg Demo";
+			productReference = 29999DFC1AC472890059006E /* nanovg Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29999E181AC472890059006E /* nanovg DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29999E261AC472890059006E /* Build configuration list for PBXNativeTarget "nanovg DemoTests" */;
+			buildPhases = (
+				29999E151AC472890059006E /* Sources */,
+				29999E161AC472890059006E /* Frameworks */,
+				29999E171AC472890059006E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29999E1B1AC472890059006E /* PBXTargetDependency */,
+			);
+			name = "nanovg DemoTests";
+			productName = "nanovg DemoTests";
+			productReference = 29999E191AC472890059006E /* nanovg DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29999DF41AC472890059006E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = wth;
+				TargetAttributes = {
+					29999DFB1AC472890059006E = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					29999E181AC472890059006E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 29999DFB1AC472890059006E;
+					};
+				};
+			};
+			buildConfigurationList = 29999DF71AC472890059006E /* Build configuration list for PBXProject "nanovg Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29999DF31AC472890059006E;
+			productRefGroup = 29999DFD1AC472890059006E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29999DFB1AC472890059006E /* nanovg Demo */,
+				29999E181AC472890059006E /* nanovg DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29999DFA1AC472890059006E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29999E3E1AC482810059006E /* images in Resources */,
+				29999E3A1AC482650059006E /* Roboto-Bold.ttf in Resources */,
+				29999E141AC472890059006E /* LaunchScreen.xib in Resources */,
+				29999E391AC482650059006E /* entypo.ttf in Resources */,
+				29999E0F1AC472890059006E /* Main.storyboard in Resources */,
+				29999E111AC472890059006E /* Images.xcassets in Resources */,
+				29999E3C1AC482650059006E /* Roboto-Regular.ttf in Resources */,
+				29999E3B1AC482650059006E /* Roboto-Light.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29999E171AC472890059006E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29999DF81AC472890059006E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29999E341AC47A040059006E /* demo.c in Sources */,
+				29999E051AC472890059006E /* AppDelegate.m in Sources */,
+				29999E0C1AC472890059006E /* GameViewController.m in Sources */,
+				29999E311AC476BE0059006E /* nanovg.c in Sources */,
+				29999E021AC472890059006E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29999E151AC472890059006E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29999E201AC472890059006E /* nanovg_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29999E1B1AC472890059006E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29999DFB1AC472890059006E /* nanovg Demo */;
+			targetProxy = 29999E1A1AC472890059006E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		29999E0D1AC472890059006E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29999E0E1AC472890059006E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29999E121AC472890059006E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29999E131AC472890059006E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29999E211AC472890059006E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29999E221AC472890059006E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29999E241AC472890059006E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "nanovg Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		29999E251AC472890059006E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "nanovg Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		29999E271AC472890059006E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "nanovg DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nanovg Demo.app/nanovg Demo";
+			};
+			name = Debug;
+		};
+		29999E281AC472890059006E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "nanovg DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nanovg Demo.app/nanovg Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29999DF71AC472890059006E /* Build configuration list for PBXProject "nanovg Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29999E211AC472890059006E /* Debug */,
+				29999E221AC472890059006E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29999E231AC472890059006E /* Build configuration list for PBXNativeTarget "nanovg Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29999E241AC472890059006E /* Debug */,
+				29999E251AC472890059006E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29999E261AC472890059006E /* Build configuration list for PBXNativeTarget "nanovg DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29999E271AC472890059006E /* Debug */,
+				29999E281AC472890059006E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29999DF41AC472890059006E /* Project object */;
+}
